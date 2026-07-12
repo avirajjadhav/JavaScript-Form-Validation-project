@@ -16,7 +16,7 @@ function data() {
   ) {
     alert("Please fill all the required fields and accept the terms.");
     return false;
-  }else if (nameinput.length !== 3) {
+  }else if (nameinput.length <3) {
     alert("Name must be at least 3 characters long.");
     return false;
 }
